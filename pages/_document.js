@@ -6,6 +6,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Add favicon and other head elements here */}
+          <link rel="preload" href="/profile.webp" as="image" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
