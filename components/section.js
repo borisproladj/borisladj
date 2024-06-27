@@ -21,7 +21,7 @@ export default function About() {
           {/* Blob background */}
           <img
             src="moto.webp"
-            className="rounded-full shadow-white sm:w-96 w-64 grayscale hover:grayscale-0 duration-300 hidden sm:block scale-125  translate-y-[-1.8em] translate-x-[-0.25em]"
+            className="rounded-full shadow-white sm:w-96 w-64 grayscale hover:grayscale-0 duration-300 will-change-transform hidden sm:block scale-125  translate-y-[-1.8em] translate-x-[-0.25em]"
             alt="Profile"
           />
         </div>
@@ -43,7 +43,7 @@ export default function About() {
             {/* Blob background */}
             <img
               src="moto.webp"
-              className="rounded-full shadow-white sm:w-96 w-64 z-0 grayscale hover:grayscale-0 duration-300 sm:hidden scale-125  translate-y-[-1em] translate-x-[-0.25em]"
+              className="rounded-full shadow-white sm:w-96 w-64 z-0 grayscale hover:grayscale-0 duration-300 will-change-transform sm:hidden scale-125  translate-y-[-1em] translate-x-[-0.25em]"
               alt="Profile"
             />
           </div>

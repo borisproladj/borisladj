@@ -42,14 +42,14 @@ export default function Contact() {
               type="text"
               name="name"
               placeholder="Your Name"
-              className="input input-bordered bg-white rounded-full mt-6"
+              className="input input-bordered bg-white rounded-full mt-6 text-black"
               required
             />
             <input
               type="email"
               name="email"
               placeholder="Email"
-              className="input input-bordered bg-white rounded-full mt-6"
+              className="input input-bordered bg-white rounded-full mt-6 text-black"
               required
             />
           </div>
@@ -57,7 +57,7 @@ export default function Contact() {
             <textarea
               name="message"
               placeholder="Your Message"
-              className="textarea input-bordered bg-white rounded-xl h-40 mt-6"
+              className="textarea input-bordered bg-white rounded-xl h-40 mt-6 text-black"
               required
             ></textarea>
           </div>

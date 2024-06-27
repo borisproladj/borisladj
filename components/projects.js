@@ -20,7 +20,7 @@ export default function Projects() {
       >
         {/* Card 1 */}
         <div
-          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 w-80 sm:w-[500px] ${
+          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 will-change-transform w-80 sm:w-[500px] ${
             inView ? "animate-fadeIn" : "opacity-0"
           }`}
         >
@@ -42,7 +42,7 @@ export default function Projects() {
 
         {/* Card 2 */}
         <div
-          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 w-80 sm:w-[500px] ${
+          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 will-change-transform w-80 sm:w-[500px] ${
             inView ? "animate-fadeIn" : "opacity-0"
           }`}
         >
@@ -63,7 +63,7 @@ export default function Projects() {
         </div>
         {/* Card 3 */}
         <div
-          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 w-80 sm:w-[500px] ${
+          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 will-change-transform w-80 sm:w-[500px] ${
             inView ? "animate-fadeIn" : "opacity-0"
           }`}
         >
@@ -84,7 +84,7 @@ export default function Projects() {
         </div>
         {/* Card 4 - Placeholder */}
         <div
-          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 w-80 sm:w-[500px] ${
+          className={`card bg-base-100 image-full shadow-xl hover:scale-110 ease-in-out duration-1000 will-change-transform w-80 sm:w-[500px] ${
             inView ? "animate-fadeIn" : "opacity-0"
           }`}
         >
