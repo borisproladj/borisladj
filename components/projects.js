@@ -26,7 +26,7 @@ export default function Projects() {
         >
           <figure className="w-full h-72 overflow-hidden">
             <img
-              src="/gvanim98.webp"
+              src="/Gvanim98.webp"
               alt="gvanim98"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
             />
@@ -48,7 +48,7 @@ export default function Projects() {
         >
           <figure className="w-full h-72 overflow-hidden">
             <img
-              src="/countryfinder.webp"
+              src="/Countryfinder.webp"
               alt="countryfinder"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
             />
