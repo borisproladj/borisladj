@@ -18,7 +18,7 @@ export default function Content() {
             src="profile.webp"
             className="rounded-full shadow-white sm:w-96 w-64 z-10 grayscale hover:grayscale-0 duration-300 sm:hidden"
             alt="Profile"
-            priority
+            loading="eager"
           />
         </div>
         </div>
