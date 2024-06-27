@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
 export default function Projects() {
@@ -25,17 +26,25 @@ export default function Projects() {
           }`}
         >
           <figure className="w-full h-72 overflow-hidden">
-            <img
+            <Image
               src="/Gvanim98.webp"
               alt="gvanim98"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
+              width={500}
+              height={288}
             />
           </figure>
           <div className="card-body items-center justify-center">
             <h2 className="card-title">Gvanim98</h2>
             <p>A copy writer business in Eilat.</p>
             <div className="card-actions justify-end">
-              <a href="https://gvanim98.vercel.app" target="_blank" className="btn btn-ghost btn-outline">Try Demo</a>
+              <a
+                href="https://gvanim98.vercel.app"
+                target="_blank"
+                className="btn btn-ghost btn-outline"
+              >
+                Try Demo
+              </a>
             </div>
           </div>
         </div>
@@ -47,17 +56,28 @@ export default function Projects() {
           }`}
         >
           <figure className="w-full h-72 overflow-hidden">
-            <img
+            <Image
               src="/Countryfinder.webp"
               alt="countryfinder"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
+              width={500}
+              height={288}
             />
           </figure>
           <div className="card-body items-center justify-center">
             <h2 className="card-title">Country Finder</h2>
-            <p>Country finder web-app. Put your countries name and it will find your neighbours!</p>
+            <p>
+              Country finder web-app. Put your countries name and it will find
+              your neighbours!
+            </p>
             <div className="card-actions justify-end">
-              <a href="https://countries-neighbours.vercel.app/" target="_blank" className="btn btn-ghost btn-outline">Try Demo</a>
+              <a
+                href="https://countries-neighbours.vercel.app/"
+                target="_blank"
+                className="btn btn-ghost btn-outline"
+              >
+                Try Demo
+              </a>
             </div>
           </div>
         </div>
@@ -68,17 +88,25 @@ export default function Projects() {
           }`}
         >
           <figure className="w-full h-72 overflow-hidden">
-            <img
+            <Image
               src="/mood2music.webp"
               alt="mood2music"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
+              width={500}
+              height={288}
             />
           </figure>
           <div className="card-body items-center justify-center">
             <h2 className="card-title">Mood2Music</h2>
             <p>Find music based on your mood!</p>
             <div className="card-actions justify-end">
-              <a href="https://moodtomusic.vercel.app" target="_blank" className="btn btn-ghost btn-outline">Try Demo</a>
+              <a
+                href="https://moodtomusic.vercel.app"
+                target="_blank"
+                className="btn btn-ghost btn-outline"
+              >
+                Try Demo
+              </a>
             </div>
           </div>
         </div>
@@ -89,17 +117,25 @@ export default function Projects() {
           }`}
         >
           <figure className="w-full h-72 overflow-hidden">
-            <img
+          <Image
               src="/kingdavid.webp"
               alt="King david mansion"
               className="w-full h-full object-cover" // Ensures the image covers the figure area, clipping if necessary
+              width={500}
+              height={288}
             />
           </figure>
           <div className="card-body items-center justify-center">
             <h2 className="card-title">King David Mansion</h2>
             <p>A villa accomandation in Eilat.</p>
             <div className="card-actions justify-end">
-              <a href="https://villa-bs.co.il" target="_blank" className="btn btn-ghost btn-outline">Try Demo</a>
+              <a
+                href="https://villa-bs.co.il"
+                target="_blank"
+                className="btn btn-ghost btn-outline"
+              >
+                Try Demo
+              </a>
             </div>
           </div>
         </div>

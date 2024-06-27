@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Content() {
   return (
     <div className="hero absolute min-h-screen z-10">
@@ -13,21 +15,26 @@ export default function Content() {
             SENSIBLE TO FRONTEND
           </div>
           <div className="relative flex justify-center items-center w-full">
-          <div className="blob-background"></div> {/* Blob background */}
-          <img
-            src="profile.webp"
+            <div className="blob-background"></div> {/* Blob background */}
+            <Image
+            src="/profile.webp"
             className="rounded-full shadow-white sm:w-96 w-64 z-10 grayscale hover:grayscale-0 duration-300 will-change-transform sm:hidden"
             alt="Profile"
-            loading="eager"
+            width={384}
+            height={543}
+            priority
           />
-        </div>
+          </div>
         </div>
         <div className="relative flex justify-center items-center w-full">
           <div className="blob-background"></div> {/* Blob background */}
-          <img
-            src="profile.webp"
+          <Image
+            src="/profile.webp"
             className="rounded-full shadow-white sm:w-96 w-64 z-0 grayscale hover:grayscale-0 duration-300 will-change-transform hidden sm:block"
             alt="Profile"
+            width={384}
+            height={543}
+            priority
           />
         </div>
       </div>
