@@ -2,32 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+html {
+  background: #000 !important
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.blob-background {
+  background-image: radial-gradient(circle, #616161 60%, transparent 60%);
+  position: absolute;
+  top: 58%;  
+  left: 48%;
+  transform: translate(-50%, -50%);
+  width: 120%;  /* Slightly larger than the image to create a halo effect */
+  height: 90%;
+  z-index: -1; 
+  border-radius: 50%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@keyframes flyIn {
+  from { letter-spacing: 2em;}
+  to { letter-spacing: 0.15em}
+}
+
+@keyframes bottomFly {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
 }
