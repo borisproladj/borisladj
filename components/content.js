@@ -3,13 +3,13 @@ export default function Content() {
     <div className="hero absolute min-h-screen z-10">
       <div className="hero-content flex-col lg:flex-row">
         <div className="flex flex-col items-start justify-center h-screen">
-          <div className="sm:absolute xl:top-96 top-64 sm:text-8xl text-5xl font-bold text-left sm:animate-flyIn tracking-[0.15em]">
+          <div className="sm:absolute 2xl:top96 top-64 sm:text-8xl text-5xl font-bold text-left sm:animate-flyIn tracking-[0.15em]">
             CREATIVE
           </div>
           <div className="sm:text-6xl text-3xl font-normal tracking-[0.46em] animate-bottomFly text-left">
             DEVELOPER
           </div>
-          <div className="sm:text-5xl text-2xl font-extralight justify-center tracking-[0.079em] animate-fadeSlow text-center xl:mt-4">
+          <div className="sm:text-5xl text-2xl font-extralight justify-center tracking-[0.079em] animate-fadeSlow text-center">
             SENSIBLE TO FRONTEND
           </div>
           <div className="relative flex justify-center items-center w-full">
