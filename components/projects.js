@@ -35,13 +35,13 @@ export default function Projects() {
             />
           </figure>
           <div className="card-body items-center justify-center">
-            <h2 className="card-title">Gvanim98</h2>
-            <p>A copy writer business in Eilat.</p>
+            <h2 className="card-title text-white">Gvanim98</h2>
+            <p className="text-white shadow-md">A copy writer business in Eilat.</p>
             <div className="card-actions justify-end">
               <a
                 href="https://gvanim98.vercel.app"
                 target="_blank"
-                className="btn btn-ghost btn-outline"
+                className="btn btn-ghost border-white btn-outline text-white"
               >
                 Try Demo
               </a>
@@ -65,8 +65,8 @@ export default function Projects() {
             />
           </figure>
           <div className="card-body items-center justify-center">
-            <h2 className="card-title">Country Finder</h2>
-            <p>
+            <h2 className="card-title text-white">Country Finder</h2>
+            <p className="text-white shadow-md">
               Country finder web-app. Put your countries name and it will find
               your neighbours!
             </p>
@@ -74,7 +74,7 @@ export default function Projects() {
               <a
                 href="https://countries-neighbours.vercel.app/"
                 target="_blank"
-                className="btn btn-ghost btn-outline"
+                className="btn btn-ghost border-white btn-outline text-white"
               >
                 Try Demo
               </a>
@@ -97,13 +97,13 @@ export default function Projects() {
             />
           </figure>
           <div className="card-body items-center justify-center">
-            <h2 className="card-title">Mood2Music</h2>
-            <p>Find music based on your mood!</p>
+            <h2 className="card-title text-white">Mood2Music</h2>
+            <p className="text-white shadow-md">Find music based on your mood!</p>
             <div className="card-actions justify-end">
               <a
                 href="https://moodtomusic.vercel.app"
                 target="_blank"
-                className="btn btn-ghost btn-outline"
+                className="btn btn-ghost border-white btn-outline text-white"
               >
                 Try Demo
               </a>
@@ -126,13 +126,13 @@ export default function Projects() {
             />
           </figure>
           <div className="card-body items-center justify-center">
-            <h2 className="card-title">King David Mansion</h2>
-            <p>A villa accomandation in Eilat.</p>
+            <h2 className="card-title text-white">King David Mansion</h2>
+            <p className="text-white shadow-md">A villa accomandation in Eilat.</p>
             <div className="card-actions justify-end">
               <a
                 href="https://villa-bs.co.il"
                 target="_blank"
-                className="btn btn-ghost btn-outline"
+                className="btn btn-ghost border-white btn-outline text-white"
               >
                 Try Demo
               </a>
